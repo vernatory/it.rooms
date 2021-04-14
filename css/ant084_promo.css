@@ -1,0 +1,155 @@
+.ant-section__ant084_promo {
+    position: relative;
+}
+
+.ant084_promo-bg-color-overlay {
+    background: rgba(0, 0, 0, 0.4);
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+.ant084_promo-vertical-align-middle-block {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    -moz-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    -o-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.ant084_promo-z-index9 {
+    z-index: 9;
+}
+
+.ant084_promo-slider-content {
+    width: 100%;
+}
+
+.ant084_promo-text-color-white {
+    color: #ffffff;
+}
+
+.ant084_promo-margin-sm-bottom {
+    margin-bottom: 20px;
+}
+
+.ant084_promo-text30 {
+    font-size: 30px;
+}
+
+.ant084_promo-text-italic {
+    font-style: italic;
+}
+
+.ant084_promo-text-scroll-slider {
+    margin-bottom: 28px;
+}
+
+.ant084_promo-text-600 {
+    font-weight: 700;
+}
+
+.ant084_promo-text-scroll-slider ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.ant084_promo-slides-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.ant084_promo-text60 {
+    font-size: 60px;
+}
+
+.ant084_promo-text-300 {
+    font-weight: 300;
+}
+
+.ant084_promo-text80 {
+    font-size: 80px;
+}
+
+.ant084_promo-text-800 {
+    font-weight: 900;
+}
+
+.ant084_promo-button-set ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.ant084_promo-button-set li {
+    margin: 0 6px;
+    margin-left: 6px;
+    display: inline-block;
+}
+
+.ant084_promo-button-set li:first-child {
+    margin-left: 0;
+}
+
+.ant-section__ant084_promo .btn {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    background: transparent;
+    border: 2px solid;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all .5s;
+}
+
+.ant-section__ant084_promo .btn:hover {
+    border-color: #1089ff;
+    background-color: #1089ff;
+    color: #fff;
+}
+
+.ant-section__ant084_promo .btn.ant084_promo-btn-default {
+    padding: 15px;
+}
+
+.ant-section__ant084_promo .ant084_promo-btn-theme-color-inverse {
+    background-color: #1089ff;
+    color: #fff;
+    border-color: #1089ff;
+}
+
+.ant-section__ant084_promo .ant084_promo-btn-theme-color-inverse:hover {
+    color: #1089ff;
+    background: #fff;
+    border-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .ant084_promo-text80 {
+        font-size: 40px;
+    }
+    .ant084_promo-text60 {
+        font-size: 30px;
+    }
+    .ant084_promo-text30 {
+        font-size: 17px;
+    }
+}
+
+/* Убрал lass="ant085_slider-item"><img alt="Company" src="img/ant085_slider/2.jpg" */
+/* height="249" width="447"></div> */

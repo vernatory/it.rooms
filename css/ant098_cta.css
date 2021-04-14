@@ -1,0 +1,47 @@
+.ant-section__ant098_cta {
+    background-image: url("../img/ant098_cta/bg4.jpg");
+    background-position: top center;
+    padding: 50px 0 250px;
+}
+
+.ant-section__ant098_cta h5 {
+    color: #ff9d33 !important;
+    font-size: 24px;
+}
+
+.ant-section__ant098_cta h2 {
+    font-size: 35px;
+    color: #23374d;
+    margin: 40px 0;
+}
+
+.ant-section__ant098_cta .btn {
+    border-width: 3px;
+    letter-spacing: .05rem;
+    padding: 1rem 3.00rem;
+    overflow: hidden;
+    border-radius: 3rem;
+    background-color: #1089ff;
+    border-color: #1089ff;
+    color: #fff;
+    font-size: 20px;
+}
+
+.ant-section__ant098_cta .btn:hover {
+    background-color: transparent;
+    color: #1089ff;
+    border-color: #1082f3;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768) {
+    .ant-section__ant098_cta h5 {
+        font-size: 20px;
+    }
+    .ant-section__ant098_cta h2 {
+        font-size: 25px;
+    }
+    .ant-section__ant098_cta .btn {
+        font-size: 15px;
+    }
+}

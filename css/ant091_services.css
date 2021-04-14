@@ -1,0 +1,51 @@
+.ant-section__ant091_services {
+    padding: 50px 0;
+    position: relative;
+    background-color: rgb(252, 252, 252);
+    background-image: url(../img/ant091_services/s1200.webp);
+    background-position: center;
+}
+
+.ant091_services-hvr-boxed h4 {
+    margin-bottom: 15px;
+    color: #222222;
+}
+
+.ant091_services-hvr-boxed p {
+    line-height: 1.9;
+    color: #555555;
+}
+
+.ant091_services-text-color-gray {
+    color: #555555;
+}
+
+.ant091_services-hvr-boxed, .ant091_services-hvr-boxed-content {
+    -webkit-transition: all 0.4s ease 0s;
+-moz-transition: all 0.4s ease 0s;
+-ms-transition: all 0.4s ease 0s;
+-o-transition: all 0.4s ease 0s;
+transition: all 0.4s ease 0s;
+}
+
+.ant091_services-hvr-boxed:hover .ant091_services-hvr-boxed-content {
+    transform: scale(0.9);
+    background: #23374d;
+    color: #fff;
+}
+
+.ant091_services-hvr-boxed-content i {
+    font-size: 50px;
+}
+
+.ant091_services-theme-color-text {
+    color: #1089ff;
+}
+
+.ant091_services-hvr-boxed.ant091_services-dark:hover .ant091_services-hvr-boxed-content i, .ant091_services-hvr-boxed.ant091_services-dark:hover .ant091_services-hvr-boxed-content p {
+    color: #bbb;
+}
+
+.ant091_services-hvr-boxed:hover .ant091_services-hvr-boxed-content h4, .ant091_services-hvr-boxed.ant091_services-dark:hover .ant091_services-hvr-boxed-content h4 {
+    color: #fff;
+}

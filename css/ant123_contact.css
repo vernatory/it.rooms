@@ -1,0 +1,140 @@
+.ant-section__ant123_contact {
+    padding: 50px 0;
+}
+
+.ant-section__ant123_contact ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ant-section__ant123_contact p {
+    font-size: 15px;
+    margin: 0 0 20px 0;
+    color: #505050;
+}
+
+.ant123_contact-heading {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 19px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.ant123_contact-heading {
+    margin-bottom: 20px;
+}
+
+.ant123_contact-heading .ant123_contact-item-title {
+    margin-bottom: 10px;
+}
+
+.ant123_contact-wrap {
+    background-color: rgba(255, 255, 255, 0.95);
+    margin-bottom: 30px;
+}
+
+.ant123_contact-wrap .ant123_contact-form-box .form-group {
+    margin-bottom: 20px;
+}
+
+.ant123_contact-wrap .ant123_contact-form-box .form-group:last-child {
+    margin-bottom: 0;
+}
+
+.ant123_contact-wrap .ant123_contact-form-box .form-group .form-control {
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    padding: 10px 25px;
+    color: #444444;
+    background-color: transparent;
+}
+
+.ant123_contact-wrap .ant123_contact-form-box .form-group .form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.ant123_contact-wrap .ant123_contact-form-box .form-group input {
+    height: 50px;
+}
+
+@media only screen and (max-width: 991px) {
+    .ant123_contact-wrap .ant123_contact-address-box {
+        margin-bottom: -4px;
+    }
+}
+
+.ant123_contact-wrap .ant123_contact-address-box li {
+    padding-left: 60px;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 10px;
+}
+
+.ant123_contact-wrap .ant123_contact-address-box li:last-child {
+    margin-bottom: 0;
+}
+
+.ant123_contact-wrap .ant123_contact-address-box li .ant123_contact-item-icon {
+    position: absolute;
+    z-index: 0;
+    top: 5px;
+    left: 0;
+    color: #1089ff;
+    font-size: 36px;
+}
+
+.ant123_contact-wrap .ant123_contact-address-box li .ant123_contact-item-title {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.ant123_contact-wrap .ant123_contact-address-box li p {
+    margin-bottom: 0;
+    color: #151515;
+    line-height: 22px;
+}
+
+.ant123_contact-btn-fill {
+    position: relative;
+    z-index: 2;
+    padding: 13px 33px 10px;
+    border-radius: 4px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    white-space: nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #1089ff;
+    border: 1px solid;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    border-color: #1089ff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.ant123_contact-btn-fill:hover {
+    color: #1089ff;
+    background-color: transparent;
+}
