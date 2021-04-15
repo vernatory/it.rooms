@@ -39,7 +39,7 @@
             image: {
                 tError: '<a href="%url%">Изображение #%curr%</a> не загрузилось.',
                 titleSrc: function (item) {
-                    return item.el.attr('title') + '<small>от Олег Петров</small>';
+                    return item.el.attr('title') + '<small>it.rooms</small>';
                 }
             }
         });
